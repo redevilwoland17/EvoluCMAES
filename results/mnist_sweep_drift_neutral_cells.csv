@@ -1,0 +1,11 @@
+B,log2_B,seeds,rho_epochs56_60_mean,rho_epochs56_60_std,best_acc_epoch60_mean,best_acc_epoch60_std,source,wall_clock_h_sum_over_seeds
+128,7,3,0.1263,0.0113,0.566,0.036,60-epoch run,0.04
+256,8,3,0.1242,0.0134,0.603,0.032,60-epoch run,0.06
+512,9,3,0.1284,0.0052,0.612,0.015,400-epoch drift-neutral run read at epoch 60,
+1024,10,3,0.1337,0.0119,0.65,0.032,60-epoch run,0.2
+2048,11,3,0.1356,0.0066,0.703,0.012,400-epoch drift-neutral run read at epoch 60,
+4096,12,3,0.1427,0.0095,0.742,0.021,60-epoch run,0.77
+8192,13,3,0.1388,0.0065,0.784,0.013,400-epoch drift-neutral run read at epoch 60,
+16384,14,3,0.1622,0.0086,0.809,0.007,60-epoch run,3.1
+32768,15,3,0.1559,0.0047,0.796,0.011,60-epoch run,6.12
+65536,16,3,0.1471,0.0066,0.8,0.018,60-epoch run,12.17

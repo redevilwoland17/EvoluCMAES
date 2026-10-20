@@ -1,0 +1,25 @@
+dataset_key,dataset,source,samples,network,method,seeds,test_acc_mean,test_acc_std,density_mean,wall_clock_s_per_run_mean,wall_clock_s_per_run_std,worker_processes,epochs_run_per_seed,selection_split_acc_mean,selection_split_acc_std
+seeds,Seeds,OpenML 1499,210,"[7, 64, 32, 3]",Random,5,0.5429,0.1611,0.054,0.16,0.02,1,,,
+seeds,Seeds,OpenML 1499,210,"[7, 64, 32, 3]",Magnitude,5,0.8571,0.12,0.0498,0.41,0.26,1,,,
+seeds,Seeds,OpenML 1499,210,"[7, 64, 32, 3]",IMP,5,0.8603,0.0324,0.0498,0.43,0.0,1,,,
+seeds,Seeds,OpenML 1499,210,"[7, 64, 32, 3]",SNIP,5,0.8381,0.0367,0.0498,0.15,0.01,1,,,
+seeds,Seeds,OpenML 1499,210,"[7, 64, 32, 3]",SynFlow,5,0.8667,0.0078,0.0498,0.19,0.0,1,,,
+seeds,Seeds,OpenML 1499,210,"[7, 64, 32, 3]",EvoluCMAES,5,0.8825,0.0384,0.0502,16.58,4.38,8,28 39 33 20 20,1.0,0.0
+glass,Glass,OpenML 41,214,"[9, 64, 32, 6]",Random,5,0.4277,0.0509,0.0535,0.15,0.0,1,,,
+glass,Glass,OpenML 41,214,"[9, 64, 32, 6]",Magnitude,5,0.6123,0.0828,0.0497,0.3,0.01,1,,,
+glass,Glass,OpenML 41,214,"[9, 64, 32, 6]",IMP,5,0.6615,0.0477,0.0497,0.48,0.06,1,,,
+glass,Glass,OpenML 41,214,"[9, 64, 32, 6]",SNIP,5,0.6677,0.0209,0.0497,0.15,0.01,1,,,
+glass,Glass,OpenML 41,214,"[9, 64, 32, 6]",SynFlow,5,0.6615,0.0667,0.0497,0.2,0.0,1,,,
+glass,Glass,OpenML 41,214,"[9, 64, 32, 6]",EvoluCMAES,5,0.6615,0.0456,0.0534,16.48,4.88,8,43 22 23 28 21,0.7067,0.0249
+ionosphere,Ionosphere,OpenML 59,351,"[34, 64, 32, 2]",Random,5,0.6736,0.0642,0.0514,0.15,0.0,1,,,
+ionosphere,Ionosphere,OpenML 59,351,"[34, 64, 32, 2]",Magnitude,5,0.9189,0.0175,0.0499,0.31,0.0,1,,,
+ionosphere,Ionosphere,OpenML 59,351,"[34, 64, 32, 2]",IMP,5,0.9019,0.048,0.0499,0.51,0.06,1,,,
+ionosphere,Ionosphere,OpenML 59,351,"[34, 64, 32, 2]",SNIP,5,0.9189,0.0128,0.0499,0.15,0.0,1,,,
+ionosphere,Ionosphere,OpenML 59,351,"[34, 64, 32, 2]",SynFlow,5,0.9132,0.0256,0.0499,0.21,0.0,1,,,
+ionosphere,Ionosphere,OpenML 59,351,"[34, 64, 32, 2]",EvoluCMAES,5,0.8962,0.0146,0.0523,24.55,7.15,8,26 44 23 41 51,0.9878,0.01
+sonar,Sonar,OpenML 40,208,"[60, 64, 32, 2]",Random,5,0.6921,0.0794,0.0515,0.15,0.0,1,,,
+sonar,Sonar,OpenML 40,208,"[60, 64, 32, 2]",Magnitude,5,0.8254,0.0502,0.0499,0.29,0.0,1,,,
+sonar,Sonar,OpenML 40,208,"[60, 64, 32, 2]",IMP,5,0.7333,0.0453,0.0499,0.47,0.01,1,,,
+sonar,Sonar,OpenML 40,208,"[60, 64, 32, 2]",SNIP,5,0.7746,0.0354,0.0499,0.16,0.02,1,,,
+sonar,Sonar,OpenML 40,208,"[60, 64, 32, 2]",SynFlow,5,0.8159,0.0215,0.0499,0.23,0.04,1,,,
+sonar,Sonar,OpenML 40,208,"[60, 64, 32, 2]",EvoluCMAES,5,0.727,0.0254,0.0511,36.41,6.99,8,60 60 39 60 41,0.9517,0.0276

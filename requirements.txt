@@ -1,0 +1,24 @@
+# Python dependencies of the EvoluCMAES release.
+# The reported runs used Python 3.10 (pruning and BB84 notebooks) and
+# Python 3.12 (E91 notebooks and scripts). Package versions are not pinned here.
+#
+# Needed for verify.py and src/e91_paired_stats.py
+numpy
+scipy
+#
+# Needed to re-run the experiments and redraw the figures
+matplotlib
+pandas
+scikit-learn
+torch
+torchvision          # MNIST appendix scripts only
+cma                  # CMA-ES inner loop (pycma)
+joblib
+gymnasium
+stable-baselines3
+sb3-contrib          # MaskablePPO, RecurrentPPO
+qiskit               # BB84 notebooks (circuit-to-operator conversion)
+#
+# Needed only for src/npa_e91_sdp.py
+ncpol2sdpa
+cvxpy

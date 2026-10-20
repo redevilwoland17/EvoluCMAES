@@ -1,0 +1,4 @@
+dataset,seeds,test_acc_mean,test_acc_std,density_best_mean,density_best_std,density_popmean_mean,density_popmean_std,epochs_run_per_seed
+iris,5,0.9867,0.0109,0.0658,0.0081,0.0644,0.0062,40 40 40 40 40
+wine,5,0.9963,0.0074,0.0672,0.0068,0.0644,0.0052,39 29 39 39 21
+cancer,5,0.9825,0.0037,0.0547,0.0038,0.0564,0.0033,40 40 40 40 40
